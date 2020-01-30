@@ -1,0 +1,16 @@
+git clone https://github.com/아이디/myFirstGit :폴더 클론하기
+cd 폴더명 :cmd경로에서 하위폴더 접속
+
+git status :현재 상황
+(상황 확인후 없는 깃허브에 없는 파일이 있다면 add하자)
+git add 파일명 :커밋이 되기전 스테이지에 올리기
+git commit -m "주석"
+git pull 	: 깃허브 수정내용을 컴퓨터로 업데이트
+git push :컴퓨터 수정내용을 깃허브로 업데이트
+
+git add . :바뀐 모든 내용을 스테이지에 올려준다.
+넣는 순서 add->commit->push
+//
+초록색으로 파일명이 보이면 커밋할 준비가 되어 있다.
+.gitignore :이 안에 있는 확장자는 무시하고 커밋한다.
+stage :커밋할 애들이 올라갈 공간
